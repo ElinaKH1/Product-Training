@@ -1,17 +1,28 @@
-# Hypothesis & Success Metrics
+# Hypothesis & Success Metrics (Module 3)
 
-> **Module 3 · ★ Deliverable 3.** Repo file `03-analytics/hypothesis-and-metrics.md` — part of your submission.
-> Do the lab in the **Module 3 · Exercise Guide** (linked from the Module 3 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It feeds the **Problem, Value & Hypothesis** slide of your Module 6 final deck.
+## Pre-work · Hypothesis check
+- **Role , who you are solving for (from M2):** Experienced delivery driver
+- **Goal , what this user is ultimately trying to achieve:** Complete the assigned route accurately and on time, with fast and reliable access to essential information and actions.
+- **Friction / moment of misery , the specific pain blocking their goal:** Core actions take too many steps, while crashes, poor offline access, delayed updates, and unreliable uploads interrupt the driver’s work.
+- **Current workaround , the external tool or manual process they rely on (M2):** The driver uses text messages, phone calls, screenshots, and printed route copies to bypass RouteLogic or maintain a backup.
+- **Problem Hook , your one-sentence framing of the business crisis (M1):** RouteLogic’s complexity is pushing operational users into workarounds, reducing adoption and putting major customer relationships and future market share at risk.
+- **Value Proposition , the outcome your initiative promised to deliver (M1):** For the 95% of customers who rely on RouteLogic for day-to-day operations, RouteLogic Velocity will simplify core workflows and remove unnecessary complexity so users can complete time-sensitive work faster, while preserving the advanced capabilities required by high-end enterprise customers.
 
-## Finalized product hypothesis
+## Read your data snapshots
+- **Does the funnel data confirm your M2 friction point, or does it tell a different story? Note where the numbers align with the qualitative pain you found and where they diverge.:** _(not filled in)_
+- **Do the retention patterns align with the workaround your M2 persona used to find content? Note what the Mo. 0→1 drop suggests about the onboarding experience your persona described as frustrating.:** _(not filled in)_
+- **Does the LTV gap and the content mix (61% trending for Wanderers) confirm the moment of misery your persona described? Note which segment your persona is in and whether the data confirms their pain.:** _(not filled in)_
+- **Does the low adoption confirm your persona is burdened by tools they don’t use? Note whether the low scheduling adoption (42%) for coordinators matches your M2 moment of misery.:** Yes, this supports the hypothesis that drivers mainly rely on a small set of core features. Adoption is high for the Dispatch Board, Route Optimizer and Compliance Checklist, but very low for Reporting, Scheduling and AI Predictive ETAs. This suggests the wider toolset may be adding complexity without providing much value to drivers.
+- **Does the workflow data match the manual process or hack you documented in M2? Note whether the specific drop-offs or time gaps explain why your persona avoids the digital tool.:** This does not directly validate the driver’s workaround, as the data covers the Coordinator workflow. However, the major drop-off after route assignment and the long time spent on compliance checks support the broader issue: operational work becomes too slow, so teams are likely to abandon the digital workflow or complete parts of it manually.
+- **Look at the CSAT heatmap. Which specific cell most directly maps to your persona’s friction? Note how the NPS trend justifies the urgency of your M1 Problem Hook.:** Driver satisfaction with Compliance is only 2.8, which most closely reflects the friction around completing delivery steps and recording proof of delivery. However, Core Dispatch scores 4.3, so the data suggests the main issue is not the entire driver experience, but specific workflows around compliance, scheduling and reliability. The NPS decline and increased time lost to workarounds confirm the urgency at account level.
 
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
-
-## Success metrics
-
-| Metric | Type | Target | Why it matters |
-|---|---|---|---|
-| _North-star_ | | _____ | _____ |
-| _Leading indicator_ | | _____ | _____ |
-| _Guardrail_ | | _____ | _____ |
+## Step 3 · Craft your hypothesis
+- **Qualitative evidence (from M2) , quote the specific friction / moment of misery for your persona:** “To mark a stop delivered I tap through three screens. In the rain, at a doorstep, with a package in one hand. I’ve started just texting my dispatcher instead.”
+- **Quantitative evidence (from M3) , name the metric or data point that confirms the pain; cite the number:** Driver satisfaction with Compliance is only 2.8/5, while 64% of drivers use the Compliance Checklist, confirming that a widely used workflow is creating friction.
+- **Persona , role, goal, and the friction you confirmed in the reconciliation steps:** An experienced delivery driver who wants to complete the assigned route accurately and on time, but is slowed down by complex and unreliable core workflows.
+- **Problem you are solving , one sentence describing the specific friction this initiative removes:** Drivers cannot complete essential delivery tasks quickly and reliably, pushing them toward texts, calls, screenshots, and printed route copies.
+- **Strategic outcome , what behaviour change do you expect, and how does it map to retention / revenue / churn?:** Drivers complete more daily work in RouteLogic instead of using manual workarounds, improving adoption, customer value, and ultimately retention.
+- **Primary success metric (initiative signal) , the leading indicator that tells you the gap is closing:** Increase Driver Compliance CSAT from 2.8 to at least 3.5, supported by fewer reported workarounds.
+- **Guardrail metric (product signal) , the metric that must NOT drop; it protects your existing base:** Maintain Manager Reporting CSAT at 4.5 or above, ensuring simplification does not weaken valued enterprise capabilities.
+- **Decision window , how much time or data before you scale, pivot, or kill? minimum threshold to proceed?:** Run an 8–12 week pilot and proceed if Driver Compliance CSAT improves by at least 0.5 points without reducing Manager Reporting CSAT.
+- **Draft your full hypothesis sentence , one to three sentences; quote the metric, name the persona, name the outcome:** Based on the user feedback and product data, we believe simplifying core delivery and compliance workflows for experienced delivery drivers will reduce manual workarounds and improve adoption, as measured by increasing Driver Compliance CSAT from 2.8 to at least 3.5. We will protect Manager Reporting CSAT at 4.5 or above and decide whether to scale after an 8–12 week pilot, with a minimum 0.5-point improvement in Driver Compliance CSAT.
